@@ -37,9 +37,6 @@ public class SummaryHashTable {
         return h % buckets.length;
     }
 
-    /*
-     *si ya existe una key dentro de la table.
-     */
     public boolean contains(String key) {
         return find(key) != null;
     }
@@ -54,22 +51,21 @@ public class SummaryHashTable {
         // si ya esta repetido
         while (current != null) {
             if (current.key.equalsIgnoreCase(key)) {
-                current.value = value; // replace y ya
+                current.value = value; 
                 return;
             }
             current = current.next;
         }
 
-        // si no existe, metemos un nuevo nodo al frente
+
         Node newNode = new Node(key, value);
         newNode.next = buckets[index];
         buckets[index] = newNode;
         size++;
     }
 
-    /**
+    /*
      * Busca un summary por su title.
-     * Retorna null si no lo consigue.
      */
     public Summary find(String key) {
         int index = hash(key);
@@ -81,7 +77,7 @@ public class SummaryHashTable {
             }
             current = current.next;
         }
-        return null; // nope
+        return null; 
     }
 
     /**
@@ -91,9 +87,8 @@ public class SummaryHashTable {
         return size;
     }
 
-    /**
+    /*
      * Saca todo lo que hay en la table y lo mete en array.
-     * Orden no garantizado, obvio.
      */
     public Summary[] getAll() {
         Summary[] all = new Summary[size];

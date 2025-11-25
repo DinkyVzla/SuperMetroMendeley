@@ -11,7 +11,7 @@ public class SummaryList {
         Node next;     
 
         Node(Summary s) {
-            this.data = s; // asign data 
+            this.data = s; 
         }
     }
 
@@ -19,10 +19,10 @@ public class SummaryList {
     private int size;
 
     /*
-     * Agrega el summary si no estaba ya metio.
+     * agrega el summary 
      */
     public void addIfNotExists(Summary s) {
-        if (contains(s)) return; // si ya ta, chao
+        if (contains(s)) return; 
 
         Node newNode = new Node(s);
         newNode.next = head;
@@ -42,8 +42,8 @@ public class SummaryList {
         return false;
     }
 
-    /**
-     * Devuelve el size. Simple.
+    /*
+     * Devuelve el size
      */
     public int getSize() {
         return size;
