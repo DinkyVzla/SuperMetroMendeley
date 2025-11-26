@@ -1,6 +1,7 @@
 package model;
 
-/**
+/*
+ *@author AlejandroSimanca
  * hash table author -> list of summaries.
  */
 public class AuthorHashTable {

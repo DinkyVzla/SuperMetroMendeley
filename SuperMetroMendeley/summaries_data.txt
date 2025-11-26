@@ -1,0 +1,33 @@
+Metodologías Ágiles en Proyectos de Gran Escala
+Autores
+María González
+Pedro Sánchez
+Laura Fernández
+Resumen
+Este trabajo investiga la aplicación de metodologías ágiles como Scrum y Kanban en proyectos de desarrollo de software a gran escala. Se analizaron 15 empresas durante 2 años, evaluando métricas de productividad, calidad del código y satisfacción del equipo. Los resultados indican que las empresas que implementan prácticas ágiles mejoradas tienen un 30% más de probabilidades de cumplir con los plazos y un 25% de reducción en defectos críticos. Se proponen frameworks híbridos que combinan elementos ágiles con governance tradicional. 
+Palabras claves: metodologías ágiles, Scrum, Kanban, desarrollo software, gestión proyectos
+---
+Algoritmos de Machine Learning para Diagnóstico Médico
+Autores
+Ana Martínez López
+Carlos Rodríguez Pérez
+Resumen
+Los algoritmos de machine learning están revolucionando el diagnóstico médico mediante el análisis de imágenes médicas. Este estudio compara diferentes enfoques de deep learning aplicados a la detección temprana de cáncer en radiografías. Se utilizaron conjuntos de datos públicos y se implementaron modelos de redes neuronales convolucionales. Los resultados muestran una precisión del 94% en la clasificación de imágenes anormales, superando los métodos tradicionales. La implementación se realizó en Python usando TensorFlow y Keras. 
+Palabras claves: machine learning, diagnóstico médico, deep learning, redes neuronales, inteligencia artificial
+---
+GraphQL vs REST
+Autores
+Christian Guillén Drija
+Reynaldo Quintero
+Resumen
+Short demo text about REST and GraphQL performance.
+Palabras claves: REST, GraphQL, calidad de software
+---
+Interacción inalámbrica con dispositivos de bajo costo
+Autores
+Rhadamés Carmona
+Marcos Ramírez
+Resumen
+Short demo text about interaction and virtual reality.
+Palabras claves: interacción humano-computador, realidad virtual
+---

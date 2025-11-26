@@ -1,6 +1,7 @@
 package model;
 
 /*
+ *@author JuanFerreira
  *hash table para guardar summaries por title.
  */
 public class SummaryHashTable {

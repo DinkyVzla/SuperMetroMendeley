@@ -1,6 +1,7 @@
 package model;
 
 /*
+ *@author JuanFerreira
  * hash table keyword -> lista d summaries.
  */
 public class KeywordHashTable {

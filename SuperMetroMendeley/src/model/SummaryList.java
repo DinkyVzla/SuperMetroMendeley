@@ -1,6 +1,7 @@
 package model;
 
-/**
+/*
+ *@author JuanFerreira
  * Lista enlazada para el save del summary
  */
 public class SummaryList {

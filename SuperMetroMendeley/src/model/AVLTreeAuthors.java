@@ -1,6 +1,7 @@
 package model;
 
 /*
+*@author AlejandroSimanca
  * arbol AVL solo para autores.
  */
 public class AVLTreeAuthors {

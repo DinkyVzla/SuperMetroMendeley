@@ -1,6 +1,7 @@
 package model;
 
 /*
+ *@author JuanFerreira
  * save un summary de investigacion.
  * O sea, el "resumen" con title, authors, body y keywords
  */
